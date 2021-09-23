@@ -1,0 +1,19 @@
+.technical-projects{
+    text-align: center;
+    font-size: xxx-large;
+    font-family:"Segoe UI","Helvetica Neue","Noto Sans","Liberation Sans",sans-serif;
+    padding: 15px 0;
+}
+
+.section{
+    background-color: #6C757D;
+    min-width: 90%;
+    max-width: 90%;
+    margin: 40px auto; 
+    padding: 0px;
+}
+
+.card-height{
+    min-height: 400px;
+
+}
