@@ -9,11 +9,35 @@
     background-color: #6C757D;
     min-width: 90%;
     max-width: 90%;
-    margin: 40px auto; 
+    margin: 30px auto; 
     padding: 0px;
 }
 
+/* technical projects */
 .card-height{
     min-height: 400px;
 
 }
+
+/* footer */
+.footer{
+    width: 100vw;
+    margin: 30px 0px 0px 0px; 
+    padding: 10px 0px 20px 0px;
+}
+
+.contact-me{
+    padding: 7px 0;
+    margin: 0%;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+}
+.social-link{
+    padding: 7px 0;
+    margin: 0%;
+    font-size: larger;
+    font-weight: bold;
+    color:white;
+}
+
