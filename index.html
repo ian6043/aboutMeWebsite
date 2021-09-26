@@ -22,7 +22,7 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link"  href="#home">Home</a>
+                <a class="nav-link"  href="#aboutme">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#education">Education</a>
@@ -47,85 +47,116 @@
           </div>
         </div>
     </nav>
-  <!--AboutMe -->
-  <div class="container section" id="home" >
+    <!--Home -->
+  <div class="container section" id="aboutme" >
     <div class="row text-center">
-        <h1>Hi , My Name is Ian Wilkinson</h1>
+         <h1>Hi, My Name is Ian Wilkinson</h1>
     </div>
+  </div>
+  <!--AboutMe -->
+  <div class="container section" id="aboutme" >
     <div class="row">
       <div class="col">
-        <h2>About Me</h2>
+        <div class="section-title-box">
+          <h2>About Me</h2>
+        </div>
       </div>
     </div>
     <div class="row">
-      <div class="col">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      <div class="col-lg-3">
+        <img class="aboutme-image" src="images/Sort-Algo-Vis.PNG" alt="picture of ian">
+      </div>
+      <div class="col-lg">
+        <div class="section-text-box">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
         It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
         with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
         </div>
+      </div>
     </div>
   </div>
   <!-- Education -->  
   <div class="container section" id="education" >
-      <div class="row">
-      <div class="col">
-        <h2>Education</h2>
+    <div class="row ">
+      <div class="col-lg-6">
+        <div class="section-title-box">
+          <h2 class="section-title">Education</h2>
+        </div>
+          <img class="section-image" src="images/rutgers-school-of-engineering.png" alt="rutgers" >
+        <div class="section-text-box">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+          with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="section-title-box">
+          <h2 class="section-title">Clubs</h2>
+        </div>
+        <img class="section-image" src="images/rfr.webp" alt="rutgers" >
+        <div class="section-text-box">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+          It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
+          with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+          </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently 
-        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-        </div>
+    <div class="row justify-content-center"> 
+      
     </div>
   </div>
+
   <!--Projects -->
-      <div class="album py-5" style="background-color: #6C757D;width: 90%; margin: 40px auto; padding: 0px;">
+      <div class="album py-5" style="background-color: #f5f5f5;width: 90%; margin: 40px auto; padding: 0px;">
         <h2 class="technical-projects" id="technical-projects">Technical Projects</h2>
         <div class="container">
           <!-- ROW 1 --> 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/Sort-Algo-Vis.PNG" alt="Sorting-Algo-Visualizer" style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
                   <h5 class="card-title text-center">Sorting Algorithm Visualizer</h5>
                   <p class="card-text">A sorting algorithm visualizer created in HTML, CSS, and JavaScript using React. 
                     It features Insertion Sort, Bubble Sort, Merge Sort, Quick Sort, and Heap Sort</p>
-                  <a href="https://ian6043.github.io/Sorting-Algorithm/" class="btn btn-primary">Check it out</a>
+                  <a href="https://ian6043.github.io/Sorting-Algorithm/" target=”_blank” class="btn btn-primary">Check it out</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/agv.PNG" alt="AGV"  style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
                   <h5 class="card-title text-center">Automated Guided Vechicle</h5>
                   <p class="card-text">An automated guided vechicle that uses VEX Line Tracker Sensors and a Ultrasonic
                     Range Finder to follow a predetermined path and stop at walls.</p>
-                  <a href="#" class="btn btn-primary" style="opacity: 0;">Check it out</a>
+                  <a href="/pdfs/Activity 1.2.9 AGV Report .pdf" target=”_blank” class="btn btn-primary">Check it out</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/washingmachine.JPG" alt="Alt" style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
                   <h5 class="card-title text-center">Nasa Hunch Washing Machine Agitator</h5>
                   <p class="card-text">A prototype washing machine agitator built for the International Space Station. The project included material research and logic design</p>
-                  <a href="#" class="btn btn-primary" style="opacity: 0;">Check it out</a>
+                  <a href="/pdfs/CDR Poster.pdf" class="btn btn-primary" target=”_blank”>Check it out</a>
                 </div>
               </div>
             </div>
           </div>
           <!-- ROW 2 --> 
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/Sort-Algo-Vis.PNG" alt="Sorting-Algo-Visualizer" style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
@@ -136,7 +167,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/agv.PNG" alt="AGV"  style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
@@ -147,7 +178,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <div class="card mb-4 box-shadow card-height" style="background-color: #6C757D ;">
                 <img class="card-img-top" src="images/washingmachine.JPG" alt="Alt" style="height: 250px;">
                 <div class="card-body" style="background-color: #FFFFFF ;">
@@ -162,19 +193,11 @@
         </div>
       </div>
   <!-- Contacts -->  
-  <div class="container footer bg-dark" id="contacts" >
-    <div class="row text-center">
-      <h2 class="contact-me">Contact me:</h2>
-    </div>
-    <div class="row text-center">
-      <a href="mailto:ianw6043@gmail.com" class="social-link">ianw6043@gmail.com  </a>
-    </div>
-    <div class="row text-center">
-      <a href="https://www.linkedin.com/in/ian-wilkinson-258499208" class="social-link">Linkedin</a>
-    </div>
-    <div class="row text-center">
-      <a href="https://github.com/ian6043" class="social-link">Github</a>
-    </div>
+  <div class="footer bg-dark " id="contacts" >
+    <h2 class="contact-me">Contact me:</h2>
+    <a href="mailto:ianw6043@gmail.com" class="social-link">ianw6043@gmail.com  </a>
+    <a href="https://www.linkedin.com/in/ian-wilkinson-258499208" class="social-link">Linkedin</a>
+    <a href="https://github.com/ian6043" class="social-link">Github</a>
   </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" 
