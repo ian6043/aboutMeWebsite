@@ -38,6 +38,13 @@ body{
     width: 50%;
     margin: 0 auto;
 }
+.other-image{
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 0px;
+    border: 1px solid grey;
+}
 /* technical projects */
 .technical-projects{
     text-align: center;
