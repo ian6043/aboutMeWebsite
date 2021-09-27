@@ -29,8 +29,10 @@ body{
     background-color:#d0d8db ;
 }
 .aboutme-image{
-    padding: 20px 0px 20px 20px;
+    
+    margin: 20px 0px 20px 20px;
     width: 100%;
+    border: 1px solid grey;
 }
 .section-image{
     display: block;
@@ -40,10 +42,9 @@ body{
 }
 .other-image{
     display: block;
-    margin: auto;
+    margin: 10px auto;
     width: 90%;
     padding: 0px;
-    border: 1px solid grey;
 }
 /* technical projects */
 .technical-projects{
